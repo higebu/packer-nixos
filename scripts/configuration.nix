@@ -51,7 +51,7 @@
     description     = "Vagrant User";
     name            = "vagrant";
     group           = "vagrant";
-    extraGroups     = [ "users" "wheel" ];
+    extraGroups     = [ "users" "wheel" "docker" ];
     password        = "vagrant";
     home            = "/home/vagrant";
     createHome      = true;
